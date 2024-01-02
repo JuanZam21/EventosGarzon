@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "167259810509",
+    "firebase_url": "https://eventos-garzon.firebaseio.com",
+    "project_id": "eventos-garzon",
+    "storage_bucket": "eventos-garzon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167259810509:android:93972f6cf5a38159b19784",
+        "android_client_info": {
+          "package_name": "com.juandiego.eventosgarzon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "167259810509-b7psnuph6ojonovm0c6lip5h8j3ngf4v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.juandiego.eventosgarzon",
+            "certificate_hash": "09d8cafa51b37a0906e1e1be0f9333bee608a76e"
+          }
+        },
+        {
+          "client_id": "167259810509-ggbcgadi1evdo8iprv5eq3lvf1bo386h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9xE_reO9xlYsJiZnlNXxOjkzlWY6sreo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "167259810509-ggbcgadi1evdo8iprv5eq3lvf1bo386h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

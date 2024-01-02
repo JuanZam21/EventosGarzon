@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".GestadminActivity">
+
+
+    <EditText
+        android:id="@+id/agEtName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:hint="@string/agEtName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:inputType="text"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/agEtLastname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:hint="@string/agEtLastname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agEtName"
+        android:inputType="text"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/agEtEmail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:hint="@string/prompt_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agEtLastname"
+        android:inputType="textEmailAddress"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/agEtPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:hint="@string/prompt_password"
+        android:imeActionLabel="@string/title_activity_login"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agEtEmail"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/agEtRpassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:hint="@string/agEtRpassword"
+        android:imeActionLabel="@string/title_activity_login"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agEtPassword"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/agBtnRadmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="76dp"
+        android:background="@color/colorAccent"
+        android:enabled="true"
+        android:text="@string/agBtnRadmin"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agEtRpassword" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

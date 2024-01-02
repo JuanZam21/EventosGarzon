@@ -1,0 +1,54 @@
+<resources>
+    <!--main-->
+    <string name="app_name">Eventos Garzón</string>
+    <string name="tab_text_1">Inicio</string>
+    <string name="tab_text_2">Favorito</string>
+    <string name="tab_text_3">Ajustes</string>
+
+    <!--fragments -->
+    <string name="blank_fragment">Aún no tienes eventos agregados ♥</string>
+    <string name="btn_settings_admin">Administrador</string>
+
+    <!--login-->
+    <string name="config">Configuración</string>
+    <string name="title_activity_login">Iniciar Sesión</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="welcome">"Bienvenido!"</string>
+    <string name="invalid_username">Usuario no valido</string>
+    <string name="invalid_password">La contraseña debe ser mayor a 5 caracteres</string>
+    <string name="login_failed">"Error al ingresar"</string>
+
+    <!--admin-->
+    <string name="aaBtnLogout">Cerrar Sesión</string>
+    <string name="aaBtnGestadmin">Agregar Administrador</string>
+    <string name="aaBtnAddevent">Añadir Evento</string>
+    <string name="aaBtnChangpass">Cambiar Contraseña</string>
+
+    <!--gestadmin-->
+    <string name="agEtName">"Nombre"</string>
+    <string name="agEtLastname">"Apellido"</string>
+    <string name="agEtPhone">"Telefono celular"</string>
+    <string name="agEtRpassword">"Repetir contraseña"</string>
+    <string name="agBtnRadmin">"Registrar Administrador"</string>
+
+    <!--changepass-->
+    <string name="acEtAntigua">"Escribe la contraseña actual"</string>
+    <string name="acEtNueva">"Escribe la nueva contraseña"</string>
+    <string name="acEtRnueva">"Repite la nueva contraseña"</string>
+    <string name="acBtnChange">"Cambiar contraseña"</string>
+
+    <!--addevent-->
+    <string name="agEtTitulo">"Nombre del evento"</string>
+    <string name="agEtDescripcion">"Descripción del evento"</string>
+    <string name="agEtLugar">"Lugar del evento"</string>
+    <string name="agEtHora">"Hora del evento (Formato militar)"</string>
+    <string name="agEtFecha">"Fecha del evento 00/00/00"</string>
+    <string name="agBtnRegevent">"Registrar Evento"</string>
+
+    <!--mensaje_view-->
+    <string name="mvTvLugar">"Lugar:"</string>
+    <string name="mvTvFecha">"Fecha:"</string>
+    <string name="mvTvHora">"Hora:"</string>
+
+</resources>
